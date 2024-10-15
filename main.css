@@ -1,0 +1,200 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    background-color: #0e3d5c;
+    color: whitesmoke;
+}
+
+a {
+    color: rgb(98, 167, 228);
+}
+
+a:visited {
+    color: rgb(113, 157, 197);
+}
+
+a:hover, a:active {
+    color: #eee;
+}
+
+table, tr, th, td, caption {
+    border: 1px solid #eee;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+button {
+    background-color: darkorange;
+    color: black;
+    border: none;
+    height: 30px;
+    width: 100px;
+    font-size: medium;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: opacity 0.20;
+}
+
+button:hover {
+    background-color: rgb(236, 214, 8);
+    color: rgb(9, 42, 230);
+    opacity: 0.6;
+
+}
+
+h3 {
+    color: aqua;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(92, 203, 255), 0 0 5px rgb(26, 101, 163);
+    text-align:left;
+    font-weight: bold;
+    text-decoration-line: underline;
+
+}
+
+h1 {
+    color: aqua;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration-line: none;
+    text-shadow: 2px 2px;
+}
+
+h2 {
+    color: white;
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
+
+td {
+    height: 50px;
+    vertical-align: bottom;
+  }
+
+  th {
+    background-color: #aa0404;
+    color: white;
+  }
+
+  tr:nth-child(even) {background-color: #02364b;}
+
+  tr:hover {background-color: rgb(0, 0, 0);}
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #0a4d68;}
+
+  html {
+    font-size: 16px;
+  }
+  @media screen and (min-width: 320px) {
+    html {
+      font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    html {
+      font-size: 22px;
+    }
+  } 
+
+  html {
+    font-size: min(max(1rem, 4vw), 22px);
+  }
+
+
+  li {
+    color: aqua;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  
+  fieldset {
+    background-color: #085f79;
+    color: aqua;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(92, 203, 255), 0 0 5px rgb(26, 101, 163);
+    font-weight: bold;
+  }
+
+  textarea {
+    background-color: rgb(4, 52, 71);
+    font-size: large;
+    color: #eee;
+  }
